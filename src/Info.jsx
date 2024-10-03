@@ -1,7 +1,7 @@
 import React from "react";
 import User from "./props/User";
 import { userOne } from "./props/Data/User";
-import About from "./props/about";
+import About from "./props/About";
 import { contact } from "./props/Data/about";
 import { service } from "./props/Data/profile";
 import Profile from "./props/Profile";
