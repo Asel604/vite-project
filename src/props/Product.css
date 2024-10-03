@@ -1,0 +1,40 @@
+.products{
+    width: 1200px;
+    /* height: 800px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+   
+}
+.prod{
+   display: flex;
+   flex-direction: column;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+ 
+}
+
+.prod img{
+ 
+    width: auto;
+    height: auto;
+    /* margin-top: -20px; */
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+/* margin-bottom: 20px; */
+
+}
+.content h4{
+    /* margin-top: -20px; */
+}
+.content p{
+    margin-top: -30px;
+}
+
+.content button{
+   background-color: green; 
+   margin-top: -30px;
+}
